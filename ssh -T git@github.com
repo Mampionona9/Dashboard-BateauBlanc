@@ -1,0 +1,15 @@
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Haj-M
+user.email=herijaona.pro@gmail.com
+user.mail=herijaona.pro@gmail.com
+color.diff=auto
+color.status=auto
+color.branch=auto
+core.editor="C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+core.tool=vimdiff
+merge.tool=vimdiff
+credential.helperselector.selected=manager
+gui.recentrepo=E:/etude/Dashboard/project

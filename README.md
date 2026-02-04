@@ -1,4 +1,4 @@
-# Bateau Blanc - Dashboard Application
+# Bateau Blanc - Dashboard Application - by KBillion
 
 A modern, full-featured dashboard application built with React, Material-UI, and Supabase.
 
