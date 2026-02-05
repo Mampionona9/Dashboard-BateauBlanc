@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { Box, TextField, Button, Typography, Paper, Alert, Tab, Tabs } from '@mui/material';
-import { Anchor } from 'lucide-react';
+import { Anchor, ImagesIcon } from 'lucide-react';
 
 export default function Login() {
   const { signIn, signUp } = useAuth();
@@ -51,7 +51,7 @@ export default function Login() {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: 'linear-gradient(180deg, #60b7bdff 0%, #1D66EE 100%)',
       }}
     >
       <Paper
@@ -70,7 +70,7 @@ export default function Login() {
               width: 48,
               height: 48,
               borderRadius: 2,
-              background: 'linear-gradient(135deg, #00c853 0%, #00e676 100%)',
+              background: '#0140A8',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -82,6 +82,7 @@ export default function Login() {
           <Typography variant="h5" fontWeight="bold" color="text.primary">
             Bateau Blanc
           </Typography>
+          
         </Box>
 
         <Tabs value={tab} onChange={(_, v) => setTab(v)} sx={{ mb: 3 }} centered>
@@ -126,9 +127,9 @@ export default function Login() {
               sx={{
                 mt: 3,
                 py: 1.5,
-                background: 'linear-gradient(135deg, #00c853 0%, #00e676 100%)',
+                background: '#0140A8',
                 '&:hover': {
-                  background: 'linear-gradient(135deg, #00b04a 0%, #00d66d 100%)',
+                  background: '#04388cff',
                 },
               }}
             >
@@ -182,9 +183,9 @@ export default function Login() {
               sx={{
                 mt: 3,
                 py: 1.5,
-                background: 'linear-gradient(135deg, #00c853 0%, #00e676 100%)',
+                background: '#0140A8',
                 '&:hover': {
-                  background: 'linear-gradient(135deg, #00b04a 0%, #00d66d 100%)',
+                  background: '#04388cff',
                 },
               }}
             >

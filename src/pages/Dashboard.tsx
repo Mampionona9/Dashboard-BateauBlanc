@@ -141,7 +141,7 @@ export default function Dashboard() {
         <Grid item xs={12} sm={6} md={3}>
           <MetricCard
             title="Total des ventes"
-            value={`${(metrics?.total_sales || 0).toLocaleString()} Ariary`}
+            value={`${(metrics?.total_sales || 0).toLocaleString()} Ar`}
             growth={metrics?.sales_growth || 0}
             color="#4CAF50"
           />
@@ -157,7 +157,7 @@ export default function Dashboard() {
         <Grid item xs={12} sm={6} md={3}>
           <MetricCard
             title="Approvisionnement"
-            value={`${(metrics?.supply_cost || 0).toLocaleString()} Ariary`}
+            value={`${(metrics?.supply_cost || 0).toLocaleString()} Ar`}
             growth={metrics?.supply_growth || 0}
             color="#00e676"
           />
@@ -165,7 +165,7 @@ export default function Dashboard() {
         <Grid item xs={12} sm={6} md={3}>
           <MetricCard
             title="Bénéfice"
-            value={`${(metrics?.profit || 0).toLocaleString()} Ariary`}
+            value={`${(metrics?.profit || 0).toLocaleString()} Ar`}
             growth={metrics?.profit_growth || 0}
             color="#00c853"
           />
